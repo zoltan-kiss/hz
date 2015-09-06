@@ -12,7 +12,7 @@ import org.jgroups.blocks.atomic.CounterService;
  * @author zoltan-kiss
  *
  */
-public class Node {
+public class Member {
 
 	// JGroups cluster configuration file.
 	private static final String CLUSTER_CONFIGURATION = "jg.xml";
@@ -24,7 +24,7 @@ public class Node {
 	private static final String ATOMIC_FLAG = "flag";
 
 	// The logger.
-	private static final Logger LOGGER = Logger.getLogger(Node.class);
+	private static final Logger LOGGER = Logger.getLogger(Member.class);
 
 	public static void main(String[] args) {
 
