@@ -1,3 +1,5 @@
+package com.kz.jg.cluster;
+
 import org.jgroups.JChannel;
 import org.jgroups.blocks.atomic.Counter;
 import org.jgroups.blocks.atomic.CounterService;
@@ -10,7 +12,7 @@ public class Node {
 	 */
 	public static void main(String[] args) throws Exception {
 
-		JChannel ch = new JChannel("c:\\java\\eclipse-workspace\\hz\\jg.xml");
+		JChannel ch = new JChannel("jg.xml");
 
 		CounterService counterService = new CounterService(ch);
 		ch.connect("counter-cluster");
