@@ -36,7 +36,7 @@ public class Member {
 			Counter counter = counterService.getOrCreateCounter(ATOMIC_FLAG, 0);
 
 			if (counter.compareAndSet(0, 1)) {
-				System.out.println("We're started.");
+				System.out.println("We are started!");
 			}
 		} catch (Exception e) {
 			LOGGER.error("Unable to establish cluster.", e);
