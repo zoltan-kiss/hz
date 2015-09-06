@@ -6,7 +6,7 @@ It is possible that some will start couple of seconds/minutes later. Some will n
 
 ---
 
-Build the application and lanuch the cluster on single host:
+Build the application and launch the cluster on single host:
 ```
 mvn clean packe
 cd scripts
