@@ -26,7 +26,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.kz.jg.cluster.Node</mainClass>
+							<mainClass>com.kz.jg.cluster.Member</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
