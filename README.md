@@ -6,9 +6,9 @@ It is possible that some will start couple of seconds/minutes later. Some will n
 
 
 Build instructions:
-'''
+```
 mvn clean packe
 cd scripts
 ./start-cluster-single-host.sh
-'''
+```
 
