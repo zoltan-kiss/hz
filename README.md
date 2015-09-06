@@ -4,6 +4,7 @@ Write an application that will be running on 10 nodes. The application need to c
 
 It is possible that some will start couple of seconds/minutes later. Some will not at all. Still I want this message to be printed and only once.
 
+---
 
 Build the application and lanuch the cluster on single host:
 ```
